@@ -1,0 +1,23 @@
+/*******************
+Table of contents
+
+## Bootstrap
+## Slick
+## Customs
+*******************/
+
+/* ## Bootstrap
+====================*/
+@import "../../../bower_components/bootstrap/scss/bootstrap-grid";
+@import "../../../bower_components/bootstrap/scss/mixins/alert";
+@import "../../../bower_components/bootstrap/scss/mixins/border-radius";
+@import "../../../bower_components/bootstrap/scss/mixins/gradients";
+@import "../../../bower_components/bootstrap/scss/alert";
+
+/* ## Slick
+====================*/
+@import "../../../bower_components/slick-carousel/slick/slick.scss";
+
+/* ## Customs
+====================*/
+@import "customs/customs";

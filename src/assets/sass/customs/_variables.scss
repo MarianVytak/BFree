@@ -1,0 +1,23 @@
+$white: #ffffff !default;
+$black: #000000 !default;
+$red: #E61919 !default;
+
+$colors: () !default;
+$colors: map-merge(
+				(
+						"white": $white,
+						"black": $black,
+						"red": $red,
+				),
+				$colors
+);
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+				(
+						"white": $white,
+						"black": $black,
+						"red": $red,
+				),
+				$theme-colors
+);
