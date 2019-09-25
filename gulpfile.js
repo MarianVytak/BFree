@@ -6,7 +6,6 @@ var gulp = require("gulp"),
     removeComments = require('gulp-strip-css-comments'),
     rename = require("gulp-rename"),
     sass = require("gulp-sass"),
-    cssnano = require("gulp-cssnano"),
     rigger = require("gulp-rigger"),
     uglify = require("gulp-uglify"),
     watch = require("gulp-watch"),
@@ -39,8 +38,8 @@ var path = {
     },
     watch: {
         html: "src/**/*.{htm,html,php}",
-        js: "src/assets/js/**/*.js",
-        css: "src/assets/sass/**/*.scss",
+        js: "src/**/*.js",
+        css: "src/**/*.scss",
         img: "src/assets/img/**/*.*",
         fonts: "src/assets/fonts/**/*.*",
         json: "src/assets/*.json"
@@ -88,15 +87,6 @@ gulp.task("css:build", function () {
         cascade: true
     }))
     .pipe(cssbeautify())
-    .pipe(gulp.dest(path.build.css))
-    .pipe(cssnano({
-        zindex: false,
-        discardComments: {
-            removeAll: true
-        }
-    }))
-    .pipe(removeComments())
-    .pipe(rename("style.min.css"))
     .pipe(gulp.dest(path.build.css))
     .pipe(webserver.reload({stream: true}));
 });

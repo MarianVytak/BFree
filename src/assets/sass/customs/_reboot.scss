@@ -4,7 +4,6 @@ body {
   position: relative;
   margin: 0;
   background-color: $white;
-  font-size: 10px;
   color: $black;
 }
 
@@ -41,6 +40,9 @@ button {
 a {
   text-decoration: none;
   transition: all .3s;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 input[type=number]::-webkit-inner-spin-button,
