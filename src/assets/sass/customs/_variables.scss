@@ -1,6 +1,7 @@
 $white: #ffffff !default;
 $black: #000000 !default;
 $red: #e31836 !default;
+$bg-red: radial-gradient(ellipse at center, rgba(227,24,54,1) 0%, rgba(227,24,54,1) 23%, rgba(227,24,54,1) 78%, rgba(227,24,54,1) 100%);
 
 $colors: () !default;
 $colors: map-merge(
