@@ -1,0 +1,33 @@
+.home-1 {
+	padding-top: 20px;
+	background-image: url(../../assets/img/bg/home-1.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home-1__img {
+	width: 100%;
+}
+
+.home-1__card {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 80px;
+	margin-top: 20px;
+}
+
+.home-1__card_icon {
+	width: 40px;
+	height: 40px;
+	margin-right: 1em;
+}
+
+.home-1__card_content {
+	font-size: 16px;
+}
+
+.home-1__btn {
+	margin-top: 10px;
+}
