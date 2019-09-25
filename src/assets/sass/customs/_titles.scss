@@ -1,3 +1,44 @@
 .title-1 {
 	 font-size: 40px;
  }
+
+.title-2 {
+	position: relative;
+	padding-bottom: 8px;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	&.white {
+		color: $white;
+	}
+	span {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 70px;
+		height: 4px;
+		border-radius: 4px;
+		background-color: $red;
+		&:before {
+			content: '';
+			position: absolute;
+			left: -4px;
+			transform: translateX(-100%);
+			width: 15px;
+			height: 4px;
+			border-radius: 4px;
+			background-color: $red;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			right: -4px;
+			width: 15px;
+			height: 4px;
+			border-radius: 4px;
+			background-color: $red;
+			transform: translateX(100%);
+		}
+	}
+}

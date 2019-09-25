@@ -1,0 +1,35 @@
+.home-3 {
+	padding: 2em 0 3em;
+}
+
+.home-3__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -10px;
+	padding-top: 30px;
+}
+
+.home-3__list_item {
+	width: calc(100%/3 - 20px);
+	margin: 10px;
+	padding: 1em 3em 3em;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.home-3__list_item_icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+}
+
+.home-3__list_item_name {
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.home-3__list_item_btn {
+	margin-top: 10px;
+}
