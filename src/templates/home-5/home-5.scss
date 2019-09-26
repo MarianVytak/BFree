@@ -22,12 +22,14 @@
 }
 
 .home-5__card_title {
+	min-height: 120px;
 	font-weight: bold;
 	font-size: 24px;
 	text-transform: uppercase;
 }
 
 .home-5__card_subtitle {
+	min-height: 75px;
 	text-transform: uppercase;
 }
 
@@ -46,10 +48,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	margin-bottom: 1em;
 }
 
 .home-5__card_steep_item_icon {
-	width: 30px;
+	img {
+		width: 30px;
+	}
 }
 
 .home-5__card_steep_item_content {
