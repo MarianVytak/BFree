@@ -1,0 +1,90 @@
+.home-5 {
+	padding: 4em 0;
+}
+
+.home-5__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 4em;
+}
+
+.home-5__card {
+	position: relative;
+	width: 25%;
+	padding: 40px 25px 150px;
+	border-radius: 5px;
+	background: $bg-red;
+	color: $white;
+	text-align: center;
+	&:nth-child(2n) {
+		background: #6e6e6e;
+	}
+}
+
+.home-5__card_title {
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.home-5__card_subtitle {
+	text-transform: uppercase;
+}
+
+.home-5__card_price {
+	font-weight: bold;
+	font-size: 48px;
+	text-transform: uppercase;
+	span {
+		font-size: 28px;
+	}
+}
+
+.home-5__card_steep {}
+
+.home-5__card_steep_item {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.home-5__card_steep_item_icon {
+	width: 30px;
+}
+
+.home-5__card_steep_item_content {
+	padding-left: 1em;
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.home-5__card_btn {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.home-5__card_includes_title {
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.home-5__card_includes_list {
+	margin-top: 1em;
+}
+
+.home-5__card_includes_list_item {
+	margin-bottom: 1em;
+	font-size: 14px;
+}
+
+.home-5__card_btn_bot {
+	position: absolute;
+	left: 50%;
+	bottom: 70px;
+	transform: translateX(-50%);
+	&:hover {
+		transform: translateX(-50%) scale(1.05);
+	}
+}
