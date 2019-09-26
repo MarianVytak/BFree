@@ -1,0 +1,25 @@
+.home-7 {
+	padding: 3em 0;
+}
+
+.home-7__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 4em;
+}
+
+.home-7__list_item {
+	width: calc(100%/3);
+}
+
+.home-7__list_item_icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+.home-7__list_item_title {
+	font-size: 20px;
+	text-align: center;
+}
