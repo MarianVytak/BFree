@@ -1,0 +1,29 @@
+.home-10 {
+	padding: 4em 0;
+	background-color: #f8f8f8;
+}
+
+.home-10__desc {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.home-10__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 4em;
+}
+
+.home-10__list_item {
+	position: relative;
+	width: calc(100%/3);
+	padding-bottom: calc(100%/3);
+	overflow: hidden;
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		height: 100%;
+	}
+}
