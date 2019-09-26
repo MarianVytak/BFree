@@ -1,6 +1,6 @@
 .title-1 {
-	 font-size: 40px;
- }
+	font-size: 40px;
+}
 
 .title-2 {
 	position: relative;
@@ -8,18 +8,23 @@
 	font-size: 48px;
 	text-transform: uppercase;
 	text-align: center;
+
 	&.white {
 		color: $white;
+
 		span {
 			background-color: rgba($white, .5);
+
 			&:before {
 				background-color: rgba($white, .5);
 			}
+
 			&:after {
 				background-color: rgba($white, .5);
 			}
 		}
 	}
+
 	span {
 		position: absolute;
 		bottom: 0;
@@ -29,6 +34,7 @@
 		height: 4px;
 		border-radius: 4px;
 		background-color: $red;
+
 		&:before {
 			content: '';
 			position: absolute;
@@ -39,6 +45,7 @@
 			border-radius: 4px;
 			background-color: $red;
 		}
+
 		&:after {
 			content: '';
 			position: absolute;
