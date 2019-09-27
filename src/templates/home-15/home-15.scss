@@ -1,0 +1,32 @@
+.home-15 {
+	position: relative;
+	top: -6em;
+	transform: skewY(-3deg);
+	padding: 6em 0;
+	background: $bg-red;
+	z-index: 2;
+}
+
+.home-15__block {
+	transform: skewY(3deg);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.box {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+}
+
+.home-15__block_icon {
+	margin-right: 4em;
+	img {
+		width: 100px;
+	}
+}
+
+.home-15__block_title {
+	font-size: 40px;
+	color: $white;
+}

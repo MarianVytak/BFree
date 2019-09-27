@@ -52,3 +52,19 @@
 		color: $white;
 	}
 }
+
+.btn-4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 315px;
+	height: 75px;
+	border: 3px solid $white;
+	color: $white;
+	transition: .3s;
+	&:hover {
+		transform: scale(1.05);
+		background-color: rgb(195, 0, 35);
+		color: $white;
+	}
+}
