@@ -1,6 +1,11 @@
 .home-11 {
 	position: relative;
 	padding: 3em 0;
+	background-image: linear-gradient(to right, rgb(255, 252, 252) 0%, rgb(215, 215, 215) 100%);
+	background-size: 100% 50%;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: $white;
 	z-index: 2;
 }
 
