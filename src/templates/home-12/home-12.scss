@@ -11,6 +11,9 @@
 	align-items: center;
 	justify-content: center;
 	margin-top: 2em;
+	img {
+		max-width: 100%;
+	}
 }
 
 .home-12__list {
@@ -35,5 +38,26 @@
 .home-12__list_item_content {
 	p {
 		margin-bottom: 1em;
+	}
+}
+
+@include media-breakpoint-down(lg) {
+	.home-12 {
+		top: 0;
+		margin-bottom: 0;
+		padding: 3em 0;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.home-12 {
+		padding: 2em 0;
+	}
+	.home-12__list_item {
+		width: 100%;
+		padding-right: 0;
+	}
+	.home-12__list_item_icon {
+		margin-right: 0;
 	}
 }
