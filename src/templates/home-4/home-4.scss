@@ -54,3 +54,26 @@
 	color: $white;
 	text-transform: uppercase;
 }
+
+@include media-breakpoint-down(lg) {
+	.home-4__list_item {
+		&:after {
+			display: none;
+		}
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.home-4__list_item {
+		width: 50%;
+		text-align: center;
+		margin-top: 2em;
+		background-position: center;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.home-4__list_item {
+		width: 100%;
+	}
+}
