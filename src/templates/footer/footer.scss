@@ -2,3 +2,9 @@
 	background-color: $white;
 	padding-bottom: 3em;
 }
+
+@include media-breakpoint-down(sm) {
+	.footer {
+		padding-bottom: 1em;
+	}
+}
