@@ -52,3 +52,31 @@
 	justify-content: center;
 	width: 100%;
 }
+
+@include media-breakpoint-down(lg) {
+	.home-8__list_item {
+		flex-wrap: wrap;
+	}
+	.home-8__list_item_left {
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 1em;
+		padding-right: 0;
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.home-8__list_item_right {
+		flex-wrap: wrap;
+	}
+	.home-8__list_item_right_img {
+		width: 50%;
+		margin-top: 1em;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.home-8__list_item_right_img {
+		width: 100%;
+	}
+}
