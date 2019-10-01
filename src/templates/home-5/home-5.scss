@@ -94,3 +94,25 @@
 		transform: translateX(-50%) scale(1.05);
 	}
 }
+
+@include media-breakpoint-down(lg) {
+	.home-5__list {
+		margin-top: 2em;
+	}
+	.home-5__card {
+		width: 50%;
+		margin-top: 2em;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.home-5__list {
+		margin-top: 0;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.home-5__card {
+		width: 100%;
+	}
+}
