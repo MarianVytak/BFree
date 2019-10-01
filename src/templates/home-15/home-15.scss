@@ -31,3 +31,37 @@
 	font-size: 40px;
 	color: $white;
 }
+
+@include media-breakpoint-down(md) {
+	.home-15__block_icon {
+		margin-right: 2em;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.home-15 {
+		padding: 3em 0;
+	}
+	.home-15__block {
+		flex-wrap: wrap;
+		.box {
+			justify-content: center;
+			width: 100%;
+		}
+	}
+	.home-15__block_btn {
+		margin: 2em auto 0;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.home-15__block_icon {
+		margin-right: 1em;
+		img {
+			width: 50px;
+		}
+	}
+	.home-15__block_title {
+		font-size: 24px;
+	}
+}
