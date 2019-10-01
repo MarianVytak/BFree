@@ -9,3 +9,11 @@ navigationLink.on('click', function (e) {
         scrollTop: navScrollBlock
     }, 2000);
 });
+
+const hamburger = $('.hamburger');
+const navigation = $('.navigation');
+hamburger.on('click', function (e) {
+    e.preventDefault();
+    hamburger.toggleClass('hamburger-active');
+    navigation.slideToggle();
+});

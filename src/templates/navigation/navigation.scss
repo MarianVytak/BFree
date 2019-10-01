@@ -30,3 +30,19 @@
 		color: $red;
 	}
 }
+
+// ========== MEDIA ========== //
+@include media-breakpoint-down(sm) {
+	.navigation {
+		display: none;
+	}
+	.navigation__list {
+		flex-wrap: wrap;
+	}
+	.navigation__list_item {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 1em;
+		text-align: center;
+	}
+}

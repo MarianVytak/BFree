@@ -56,6 +56,12 @@
 	.header__block {
 		align-items: center;
 	}
+	.header__logo {
+		width: 100px;
+		img {
+			width: 100%;
+		}
+	}
 	.header__info {
 		display: none;
 	}
