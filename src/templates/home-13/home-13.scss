@@ -38,3 +38,15 @@
 	font-size: 22px;
 	text-align: center;
 }
+
+@include media-breakpoint-down(sm) {
+	.home-13 {
+		padding: 2em 0;
+	}
+	.home-13__img {
+		display: none;
+	}
+	.home-13__form {
+		margin: 2em auto 0;
+	}
+}
