@@ -61,3 +61,23 @@
 		}
 	}
 }
+
+@include media-breakpoint-down(sm) {
+	.home-6 {
+		padding: 2em 0;
+	}
+	.home-6__tab {
+		margin-top: 2em;
+		.list-group {
+			flex-wrap: wrap;
+		}
+		.list-group-item {
+			width: 100%;
+		}
+		.tab-content {
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+}

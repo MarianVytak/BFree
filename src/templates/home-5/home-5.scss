@@ -106,6 +106,9 @@
 }
 
 @include media-breakpoint-down(sm) {
+	.home-5 {
+		padding: 2em 0;
+	}
 	.home-5__list {
 		margin-top: 0;
 	}
