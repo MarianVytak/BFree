@@ -28,3 +28,22 @@
 		min-width: 100%;
 	}
 }
+
+@include media-breakpoint-down(sm) {
+	.home-10 {
+		padding: 2em 0;
+	}
+	.home-10__desc {
+		margin-top: 1em;
+	}
+	.home-10__list {
+		margin-top: 2em;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.home-10__list_item {
+		width: 100%;
+		padding-bottom: 100%;
+	}
+}
