@@ -1,6 +1,6 @@
 'use strict';
 
-const navigationLink = $('.navigation__list_item_link');
+const navigationLink = $('.js-anchor-link');
 navigationLink.on('click', function (e) {
     e.preventDefault();
     let navScroll = $(this).attr('href'),
