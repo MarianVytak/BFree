@@ -72,3 +72,25 @@
 	height: 465px;
 	box-shadow: inset 0 4px 5px 0 rgba(0, 0, 0, 0.35);
 }
+
+@include media-breakpoint-down(lg) {
+	.home-16__block {
+		flex-wrap: wrap;
+		margin-top: 2em;
+	}
+	.home-16__block_left {
+		padding-right: 0;
+		margin-bottom: 2em;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.home-16__block_info_networks_item {
+		margin-right: 1em;
+	}
+	.home-16__block_info_networks_item_link {
+		img {
+			width: 30px;
+		}
+	}
+}
