@@ -29,3 +29,18 @@
 	color: $white;
 	text-align: center;
 }
+
+@include media-breakpoint-down(md) {
+	.home-2__card_list {
+		justify-content: center;
+	}
+	.home-2__card {
+		width: calc(50% - 20px);
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.home-2__card {
+		width: 100%;
+	}
+}
