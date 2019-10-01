@@ -1,7 +1,5 @@
 .hamburger, .side-menu__hamburger {
-  position: fixed;
-  top: 1.5em;
-  right: 1em;
+  position: relative;
   display: none;
   width: 30px;
   height: 30px;
@@ -39,5 +37,12 @@
   &:nth-child(4 ) {
     transform: translate(0,-50%) translateY(10px);
     transition: .1s;
+  }
+}
+
+// ========== MEDIA ========== //
+@include media-breakpoint-down(sm) {
+  .hamburger {
+    display: block;
   }
 }
