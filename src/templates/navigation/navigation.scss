@@ -34,6 +34,7 @@
 // ========== MEDIA ========== //
 @include media-breakpoint-down(sm) {
 	.navigation {
+		top: 60px;
 		display: none;
 	}
 	.navigation__list {

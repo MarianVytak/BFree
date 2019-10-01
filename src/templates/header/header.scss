@@ -52,6 +52,11 @@
 }
 
 @include media-breakpoint-down(sm) {
+	.header {
+		position: sticky;
+		top: 0;
+		z-index: 3000;
+	}
 	.header__block {
 		align-items: center;
 	}

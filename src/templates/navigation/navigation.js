@@ -3,6 +3,8 @@
 const navigationLink = $('.js-anchor-link');
 navigationLink.on('click', function (e) {
     e.preventDefault();
+    hamburger.removeClass('hamburger-active');
+    navigation.slideUp();
     let navScroll = $(this).attr('href'),
         navScrollBlock = $(navScroll).offset().top;
     $('html, body').animate({
