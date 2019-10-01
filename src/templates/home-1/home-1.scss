@@ -32,3 +32,20 @@
 .home-1__btn {
 	margin-top: 10px;
 }
+
+@include media-breakpoint-down(sm) {
+	.home-1 {
+		padding: 2em 0;
+		background: $white;
+	}
+	.home-1__card {
+		justify-content: center;
+		height: auto;
+	}
+	.home-1__card_icon {
+		display: none;
+	}
+	.home-1__img {
+		display: none;
+	}
+}
